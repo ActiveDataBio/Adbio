@@ -7,7 +7,7 @@
 
 [How Can I Contribute?](#contribute)
 * [Reporting Bugs](#contribute_bug)
-* [Suggesting Enhancements](#contribute_engancements)
+* [Suggesting Features](#contribute_features)
 
 [Style Guides](#styleguides)
 * [Git Commit Messages](#styleguides_git)
@@ -51,7 +51,34 @@ Please use this template and add the lable bug when creating an issue for bugs
 
 * Problem can be reliably reproduced, doesn't happen randomly: [Yes/No]
 ```
-###<a name="contribute_engancements"></a>Suggesting Enhancements
+###<a name="contribute_features"></a>Suggesting Features
+We welcome the submition of engancements to Adbio. Please use this as a guide to help maintainers and the comunity undersrtand your sugestion. Use Github issues to suggest enhancements to Adbio but, first check this list to be sure your suggestion isn't already there.
+####Template for suggesting features
+```
+[Short description of feature]
+
+**Steps which explain the feature**
+
+1. [First Step]
+2. [Second Step]
+3. [Other Steps...]
+
+**Current and suggested behavior**
+
+[Describe current and suggested behavior here]
+
+**Why would the feature be useful to most users**
+
+[Explain why the feature would be useful to most users]
+
+[List some other applications where this enhancement exists]
+
+**Screenshots and GIFs**
+
+![Screenshots and GIFs which demonstrate the steps or part of Adbio the feature suggestion is related to](url)
+
+**OS and Version:** [Enter OS name and version here]
+```
 
 ##<a name="styleguides"></a>Style Guides
 ###<a name="styleguides_git"></a>Git Commit Messages
