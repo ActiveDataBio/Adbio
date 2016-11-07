@@ -24,7 +24,7 @@ Additional Notes
 
 
 ##<a name="gettingStarted"></a>What Should I Know Before I Get Started
-Requirements 
+###Requirements 
 * Sping Tool Suite
 * Java 8
 * R script
@@ -36,6 +36,7 @@ There are a few ways to contribute to Adbio.
 * Reporting bugs because we can't catch everything.
 * Suggesting features.
 * Editing the code.
+
 ###<a name="contribute_bug"></a>Reporting Bugs
 Report bugs by using Github issues but, before you do please search the issues board to check if the bug hasn't already but reported.
 Please use this template and add the label bug when creating an issue for bugs
