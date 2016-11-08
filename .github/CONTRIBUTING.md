@@ -25,9 +25,9 @@ Additional Notes
 
 ##<a name="gettingStarted"></a>What Should I Know Before I Get Started
 ###Requirements 
-* Sping Tool Suite
-* Java 8
-* R script
+* [Spring Tool Suite(STS)](https://spring.io/tools/sts)
+* [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+* [R Script](https://www.r-project.org/)
 
 ###<a name="gettingStarted_conduct"></a>Code of Conduct
 
