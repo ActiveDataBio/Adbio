@@ -4,7 +4,7 @@
 
 ------
 
-# ADBio Tutorials
+# ADBio
 
 [ADBio](https://adbio.pnnl.gov) is a visual analytic tool that allows data exploration within familiar biological contexts. The tool suite is focused on fluid navigation and easy collaboration with three main tools: Heatmap view, Pathway view, and the Canvas. Each tool displays project data in a different way and lets domain experts explore data within a visual context that is familiar and productive. The Active Data Biology is designed to be a sharable thought space. All data and analyses are versioned and backed at Github.
 
