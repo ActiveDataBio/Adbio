@@ -8,12 +8,13 @@ This project was created with [Spring Tool Suite](https://spring.io/tools) with 
 
 [What should I know before I get started](#gettingStarted)
 * [Requirements](#gettingStarted_requirements)
-* [Code of Conduct](#gettingStarted_conduct)
+
 
 [How Can I Contribute?](#contribute)
 * [Reporting Bugs](#contribute_bug)
 * [Suggesting Features](#contribute_features)
 * [Do the work](#contribute_work)
+* [Edit Documentation](#contribute_docs)
 
 [Style Guides](#styleguides)
 * [Git Commit Messages](#styleguides_git)
@@ -30,13 +31,14 @@ Additional Notes
 * [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 * [R Script](https://www.r-project.org/)
 
-###<a name="gettingStarted_conduct"></a>Code of Conduct
+
 
 ##<a name="contribute"></a>How Can I Contribute?
 There are a few ways to contribute to Adbio.
 * Reporting bugs because we can't catch everything.
 * Suggesting features.
 * Editing the code.
+* Suggesting edits to documentation
 
 ###<a name="contribute_bug"></a>Reporting Bugs
 Report bugs by using Github issues but, before you do please search the issues board to check if the bug hasn't already but reported.
@@ -100,7 +102,8 @@ Please use this template and add the label enhancement.
 ```
 ###<a name="contribute_work"></a>Fixing Bugs or Adding Features
 If interested in writing code for Adbio choose a bug or feature from the open issues. If you found a bug or want to add a feature that isn't listed please add it to Github issues before starting work on it. If fixing bugs clone the repository and make the necessary code changes to the *dev* branch. If adding features make a new branch using the name or shortened name of the feature. When finished editing the code create a new pull request for the branch. Any commits made should use the [git commit messages style guide](#styleguides_git). The code should be well commented and use the [Java style guide](#styleguides_java) or [JavaScript style guide](#styleguides_javascript). Write tests and be sure all tests pass before submitting the pull request.
-
+###<a name="contribute_docs"></a>Suggesting Edits to Documentation
+Documentation is an ever changing part of Adbio as it evolves. Adding new features and changes to the work flow may require new explanation. Adbio uses the github wiki to document the user interactions.
 ##<a name="styleguides"></a>Style Guides
 ###<a name="styleguides_git"></a>Git Commit Messages
 Use present tense e.g. fix bug not fixed bug
