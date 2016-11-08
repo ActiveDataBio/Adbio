@@ -101,7 +101,7 @@ Please use this template and add the label enhancement.
 **OS and Version:** [Enter OS name and version here]
 ```
 ###<a name="contribute_work"></a>Fixing Bugs or Adding Features
-If interested in writing code for Adbio choose a bug or feature from the open issues. If you found a bug or want to add a feature that isn't listed please add it to Github issues before starting work on it. If fixing bugs clone the repository and make the necessary code changes to the *dev* branch. If adding features make a new branch using the name or shortened name of the feature. When finished editing the code create a new pull request for the branch. Any commits made should use the [git commit messages style guide](#styleguides_git). The code should be well commented and use the [Java style guide](#styleguides_java) or [JavaScript style guide](#styleguides_javascript). Write tests and be sure all tests pass before submitting the pull request.
+If interested in writing code for Adbio choose a bug or feature from the open issues. If you found a bug or want to add a feature that isn't listed please add it to Github issues before starting work on it. If fixing bugs clone the repository and make the necessary code changes to the *dev* branch. If adding features make a new branch using the name or shortened name of the feature. When finished editing the code create a new pull request for the branch. Any commits made should use the [git commit messages style guide](#styleguides_git). The code should be well commented and use the [Java style guide](#styleguides_java)<!-- or [JavaScript style guide](#styleguides_javascript)-->. Write tests and be sure all tests pass before submitting the pull request.
 ###<a name="contribute_docs"></a>Suggesting Edits to Documentation
 Documentation is an ever changing part of Adbio as it evolves. Adding new features and changes to the work flow may require new explanation. Adbio uses the github wiki to document the user interactions.
 ##<a name="styleguides"></a>Style Guides
@@ -110,4 +110,4 @@ Use present tense e.g. fix bug not fixed bug
 
 ###<a name="styleguides_java"></a>Java Style Guide
 All Java must comply with [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
-###<a name="styleguides_javascript"></a>JavaScript Style Guide
+<!--###<a name="styleguides_javascript"></a>JavaScript Style Guide-->
