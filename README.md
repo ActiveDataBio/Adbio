@@ -6,9 +6,9 @@
 
 # ADBio
 
-[ADBio](https://adbio.pnnl.gov) is a visual analytic tool that allows data exploration within familiar biological contexts. The tool suite is focused on fluid navigation and easy collaboration with three main tools: Heatmap view, Pathway view, and the Canvas. Each tool displays project data in a different way and lets domain experts explore data within a visual context that is familiar and productive. The Active Data Biology is designed to be a sharable thought space. All data and analyses are versioned and backed at Github.
+[ADBio](https://adbio.pnnl.gov) is a visual analytic tool built to assist in the collaborative analysis of -omics data (e.g. proteomics, transcriptomics, etc.) and allows data exploration within familiar biological contexts. The tool suite is focused on fluid navigation and easy collaboration with three main tools: Heatmap view, Pathway view, and the Canvas. Each tool displays project data in a different way and lets domain experts explore data within a visual context that is familiar and productive. Active Data Biology is designed to be a sharable thought space. All data and analyses are versioned and backed at Github.
 
-This repository aims to provide a set of comprehensive tutorials with some concrete examples.
+This repository stores the code/analytics necessary to run the ADBio server. Below is a set of comprehensive tutorials with some concrete examples to help you fork/mirror/host your own version of the server.
 
 ## How to use
 ADBio is a web service that means you can use it through web browsers, supporting HTML5 and CSS3. For each tool, please refer to [this link](https://adbio.pnnl.gov/bioviz/FAQ.html) for the detail. Also you can find more information from the following videos. The videos have been recorded in the old version of ADBio. Nevertheless, it still provides fairly good lessons to get each tool started. We'll update these soon.
