@@ -14,6 +14,7 @@ This repository stores the code/analytics necessary to run the ADBio server. Bel
 ADBio is a web service that means you can use it through web browsers, supporting HTML5 and CSS3. For each tool, please refer to [this link](https://adbio.pnnl.gov/bioviz/FAQ.html) for the detail. Also you can find more information from the following videos. The videos have been recorded in the old version of ADBio. Nevertheless, it still provides fairly good lessons to get each tool started. We'll update these soon.
 
 ### Tutorial Videos
+Although we post the videos below to help you get an understanding of what ADBio can do, this repository is for the webserver itself, and not a data analysis project.
 * [Overview tutorial](https://youtu.be/lM12rP0Gl9Y?list=PLdW5J6qhxuwCJIJSUcxRroYEbpOQKEeL3)
 * [Heatmap tutorial](https://youtu.be/uB0eV5jp_vA?list=PLdW5J6qhxuwCJIJSUcxRroYEbpOQKEeL3)
 * [Pathway tutorial](https://youtu.be/9i2ijlmKcIg?list=PLdW5J6qhxuwCJIJSUcxRroYEbpOQKEeL3)
