@@ -1,18 +1,16 @@
-![ADBio][adbio-logo]
-
+[![ADBio][adbio-logo]](https://adbio.pnnl.gov/bioviz)  
 [![Visit at https://adbio.pnnl.gov](https://adbio.pnnl.gov/bioviz/services/svg/version?ver=0.02)](https://adbio.pnnl.gov/bioviz/releasenotes.html#0.02)
 
 ------
 
 # ADBio
 
-[ADBio](https://adbio.pnnl.gov) is a visual analytic tool built to assist in the collaborative analysis of -omics data (e.g. proteomics, transcriptomics, etc.) and allows data exploration within familiar biological contexts. The tool suite is focused on fluid navigation and easy collaboration with three main tools: Heatmap view, Pathway view, and the Canvas. Each tool displays project data in a different way and lets domain experts explore data within a visual context that is familiar and productive. Active Data Biology is designed to be a sharable thought space. All data and analyses are versioned and backed at Github.
+[ADBio](https://adbio.pnnl.gov) is a visual analytic tool built to assist in the collaborative analysis of -omics data (e.g. proteomics, transcriptomics, etc.) and allows data exploration within familiar biological contexts. The tool suite is focused on fluid navigation and easy collaboration with two main tools: Heatmap view, Pathway view<!--, and the Canvas-->. Each tool displays project data in a different way and lets domain experts explore data within a visual context that is familiar and productive. Active Data Biology is designed to be a sharable thought space. All data and analyses are versioned and backed on git.
 
 This repository stores the code/analytics necessary to run the ADBio server. Below is a set of comprehensive tutorials with some concrete examples to help you fork/mirror/host your own version of the server. If you want to contribute code to this repository, awesome! We'd love the help. Please check the [Contribution documentation](./.github/CONTRIBUTING.md).
 
 ## How to use
-ADBio is a web service that means you can use it through web browsers, supporting HTML5 and CSS3. For each tool, please refer to [this link](https://adbio.pnnl.gov/bioviz/FAQ.html) for the detail. Also you can find more information from the following videos. The videos have been recorded in the old version of ADBio. Nevertheless, it still provides fairly good lessons to get each tool started. We'll update these soon.
-
+ADBio is a web service that means you can use it through web browsers, supporting HTML5 and CSS3. To run check [program access](https://github.com/ActiveDataBio/Adbio/wiki/Program-Access) on the wiki page. This will explain how to get an Adbio server working on your local machine.
 ### Tutorial Videos
 Although we post the videos below to help you get an understanding of what ADBio can do, this repository is for the webserver itself, and not a data analysis project.
 * [Overview tutorial](https://youtu.be/lM12rP0Gl9Y?list=PLdW5J6qhxuwCJIJSUcxRroYEbpOQKEeL3)
@@ -24,28 +22,9 @@ Although we post the videos below to help you get an understanding of what ADBio
 * [@SciData15](https://youtu.be/POC2-D3XtgU)
 
 ## How to login
-All accounts on ADBio are mirrored from Github, meaning that you use your GitHub account to work on ADBio. To log-in using your GitHub account, click the LOG-IN button which redirects you to Github.com where you can enter your user name and password, or create an account. ADBio doesn't keep your private information at all.
+After setting up the server the data repository cards should be displayed. If you're not logged in already hovering over them will display a login button. Click it and enter your user name and password for the git host you want to access. This will clone the repositories locally.
 
-## How to prepare for my data
-In order to create a new ADBio project using your own data, you need to prepare these two files.
-
-* RData file: it contains the data matrix and clustering information
-* Tab-delimited text file: it contains the meta data for each experiment (or each sample)  (See '[example_metadata.tsv](https://github.com/ActiveDataBio/adbio_tutorial/blob/master/example_metadata.tsv)')
-
-### How to generate RData from my data file.
-You need to install [R](https://cran.r-project.org/) and [RStudio](https://www.rstudio.com/products/rstudio/download/) first. If you have R, please clone or download this repository in your local computer. Then, please open '[generate_rdata_hc.R](https://github.com/ActiveDataBio/adbio_tutorial/blob/master/generate_rdata_hc.R)' and run it with '[example_dataset.csv](https://github.com/ActiveDataBio/adbio_tutorial/blob/master/example_dataset.csv)'. Or please go to [here](https://github.com/ActiveDataBio/adbio_tutorial/blob/master/tutorial_1_generate_rdata.ipynb) and follow the guidelines.
-
-### How to use a meta data file.
-please go to [here](https://github.com/ActiveDataBio/adbio_tutorial/blob/master/tutorial_2_metadata.ipynb) and refer to the tutorial.
-
-<!--
-## How to upload my data
-with some pictures
-* Go to 'myproject' page
-* Click the 'Create' tab
-How to fill in the forms
-How to assign tests
-Bug reports
--->
+## Create an Adbio project
+An Adbio project is a git repository that stores files required for Adbio to perform the vizual analytics. We have developed a simple command line tool to allow you to create all the files, refer to [CL_Create_Project](https://github.com/ActiveDataBio/CL_Create_Project) for information on creating a project.
 
 [adbio-logo]:https://adbio.pnnl.gov/bioviz/images/activeData-biglogo.png
