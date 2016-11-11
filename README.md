@@ -24,7 +24,7 @@ Although we post the videos below to help you get an understanding of what ADBio
 ## How to login
 After setting up the server the data repository cards should be displayed. If you're not logged in already hovering over them will display a login button. Click it and enter your user name and password for the git host you want to access. This will clone the repositories locally.
 
-## Create an Adbio project
-An Adbio project is a git repository that stores files required for Adbio to perform the vizual analytics. We have developed a simple command line tool to allow you to create all the files, refer to [CL_Create_Project](https://github.com/ActiveDataBio/CL_Create_Project) for information on creating a project.
+## Create an Adbio project for your data
+An Adbio project is a git repository that stores files required for Adbio to perform the vizual analytics. We have developed a simple command line tool to allow you to create all the files using your data, refer to [CL_Create_Project](https://github.com/ActiveDataBio/CL_Create_Project) for information on creating a project.
 
 [adbio-logo]:https://adbio.pnnl.gov/bioviz/images/activeData-biglogo.png
